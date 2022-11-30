@@ -3,26 +3,26 @@
     {
       "id": 1,
       "kode": "K-01",
-      "nama": "Magnum Ice",
-      "harga": "20000",
+      "nama": "Sorbet Ice",
+      "harga": "15000",
       "is_ready": true,
-      "gambar": "magnum.jpg"
+      "gambar": "sorbet.jpg"
     },
     {
       "id": 2,
-      "kode": "K-2",
-      "nama": "Cone Ice",
-      "harga": "10000",
+      "kode": "K-02",
+      "nama": "Yogurt Ice",
+      "harga": "15000",
       "is_ready": true,
-      "gambar": "cone.jpeg"
+      "gambar": "yogurt.jpg"
     },
     {
       "id": 3,
       "kode": "K-03",
-      "nama": "Haku Matcha Ice",
-      "harga": "13000",
+      "nama": "Mochi Ice",
+      "harga": "12000",
       "is_ready": true,
-      "gambar": "haku.jpg"
+      "gambar": "mochi.jpg"
     }
   ],
   "products": [
@@ -34,7 +34,6 @@
       "is_ready": true,
       "gambar": "sorbet.jpg"
     },
-
     {
       "id": 2,
       "kode": "K-02",
@@ -51,7 +50,6 @@
       "is_ready": true,
       "gambar": "mochi.jpg"
     },
-
     {
       "id": 4,
       "kode": "K-04",
@@ -71,28 +69,71 @@
     {
       "id": 6,
       "kode": "K-06",
-      "nama": "Magnum Ice",
+      "nama": "Flower Ice",
       "harga": "20000",
       "is_ready": true,
-      "gambar": "magnum.jpg"
+      "gambar": "ice-flower.png"
     },
     {
-      "id": 7,
-      "kode": "K-07",
+      "id": "9",
+      "kode": "K-09",
+      "nama": "Dondurma",
+      "harga": "15000",
+      "is_ready": "Ready",
+      "gambar": "dondurma.jpg"
+    },
+    {
+      "id": "10",
+      "kode": "K-10",
+      "nama": "Haku Matcha Ice",
+      "harga": "13000",
+      "is_ready": "Ready",
+      "gambar": "haku.jpg"
+    },
+    {
+      "id": "8",
+      "kode": "K-08",
       "nama": "Cone Ice",
-      "harga": "10000",
-      "is_ready": true,
+      "harga": "11000",
+      "is_ready": "Ready",
       "gambar": "cone.jpeg"
     },
     {
-      "id": 8,
-      "kode": "K-08",
-      "nama": "Haku Matcha Ice",
+      "id": "13",
+      "kode": "K-13",
+      "nama": "Magnum Ice",
       "harga": "13000",
-      "is_ready": true,
-      "gambar": "haku.jpg"
+      "is_ready": "Ready",
+      "gambar": "magnum.jpg"
     }
   ],
   "keranjangs": [],
-  "pesanans": []
+  "pesanans": [
+    {
+      "nama": "ade",
+      "noMeja": "1",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "1",
+          "products": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Yogurt Ice",
+            "harga": "15000",
+            "is_ready": true,
+            "gambar": "yogurt.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "admin": [
+    {
+      "email": "example@gmail.com",
+      "password": "123"
+    }
+  ],
+  "menu": []
 }
